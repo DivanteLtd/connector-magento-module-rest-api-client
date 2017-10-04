@@ -1,0 +1,18 @@
+{
+    "name": "divante-ltd/connector-magento-module-rest-api-client",
+    "type": "library",
+    "description": "Connector Magento Module REST API Client",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2",
+        "psr/log": "^1.0",
+        "guzzlehttp/guzzle-services": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "Divante\\Connector\\Magento": "src/"
+        }
+    }
+}
